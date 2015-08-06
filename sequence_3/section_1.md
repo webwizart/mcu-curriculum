@@ -60,21 +60,7 @@ This is the program you use to edit your programs. Looks pretty simple huh? This
 * Open your inventory and search for `monitor`
 * Place 12 monitors in a 6 wide by 2 high pattern to create a giant widescreen monitor
 * Place a computer next to the monitor
-* Place a disk drive next to the computer
-
-#### Watch a movie
-
-* Open your inventory and search for `disk`
-* Find a disk labeled `alongtimeago` and place it into the disk drive
-
-  ![alongtimeago](images/section_1/a_long_time_ago.png)
-
-* Right click on the computer and run the `alongtimeago` program
-  * To run a program on the disk, specify the full path to the program like this: `disk/alongtimeago`
-  * To run the program on the monitor, specify the monitor first, like this: `monitor [top|bottom|left|right|front|back] disk/alongtimeago`
-  * The syntax `[top|bottom|left|right|front|back]` means pick which side your monitor is on and only type that direction, of those six shown. So your command would be something like `monitor left disk/alongtimeago`.
-
-![Watching on the big screen](images/section_1/monitor.png)
+* Try running `monitor left time` or `monitor right time` on your computer.
 
 * To quit any running program, hold down ```ctrl + t```
 
