@@ -2,6 +2,14 @@
 
 Another useful program! You can point this one at a wall and it will dig a two block tall and one block wide tunnel. It will also place torches every 8 blocks.
 
+>First we have to set up something called **arguments**. In the programs we wrote so far, we just typed the name of the program to run it. Now, we'll type the name and then something else after it. That something else is called an argument. You didn't know it, but you've already used arguments. When you run the `go` program, you have to use something like `go forward`. When you type that, `forward` is the first argument to the `go` program.
+
+To setup arguments in your programs just put this on the first line.
+
+```lua
+local tArgs = {...}
+```
+
 > We're going to be building this program with **functions**. Functions are what you use in more complex programs so that you don't have to type all of your code in the same block over and over again. Think of a function as something that does one thing really well, and if you put them together, they do a complex task.
 
 The first function we write will check if the turtle is on solid ground, and if not, it will place a block below itself. You define functions like this.
@@ -91,7 +99,7 @@ local length = tonumber(tArgs[1])
 local moveBack = 0
 ```
 
-> The `tArgs[1]` bit of the code above is an **argument**. And argument is something you give a program when you run it. If you run a program like `go forward 10`, then your first argument (`tArgs[1]`) is `forward` and your second argument (`tArgs[2]`) is `10`.
+> The `tArgs[1]` bit of the code above is an **argument**. By using the number 1, you're looking at the first argument you give the program.
 
 Now we put it all together.
 
